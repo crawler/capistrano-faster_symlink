@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
   gem.files                 =
     %w[lib/capistrano/faster_symlink.rb lib/capistrano/tasks/faster_symlink.rake]
   gem.require_paths         = ['lib']
-  gem.required_ruby_version = '2.7'
+  gem.required_ruby_version = '>= 2.7'
 
   gem.add_dependency 'capistrano', '~> 3.0'
 end
